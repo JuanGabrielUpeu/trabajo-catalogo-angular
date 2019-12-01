@@ -1,0 +1,20 @@
+<table class="table" >
+    <thead class="thead-danger bg-danger">
+      <tr>
+        <th scope="col">catalogo id</th>
+        <th scope="col">titulo imagen</th>
+        <th scope="col">audio imagen</th>
+        <th scope="col">orden imagen</th>
+        <th scope="col">catalogo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let ed of list">
+        <td >{{ ed.imagen_id }}</td>
+        <td >{{ ed.titulo_imagen }}</td>
+        <td>{{ ed.audio_imagen }}</td>
+        <td>{{ ed.orden_imagen }}</td>
+        <td>{{ ed.catalogo_id }}</td>
+      </tr>
+    </tbody>
+</table>
